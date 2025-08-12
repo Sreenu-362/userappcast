@@ -1,1 +1,42 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>CivilBook App Updates</title>
+    <description>
+      Stay up-to-date with the latest releases of CivilBook – your trusted On-Demand Home Services app.
+      We're constantly improving to make your experience smoother, faster, and more reliable.
+    </description>
+    <language>en</language>
+    <link>https://civilbook.in</link>
+    <lastBuildDate>Mon, 12 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <generator>CivilBook Update Feed Generator</generator>
+    <!-- Android version -->
+    <item>
+        <title>CivilBook v7.1.0 (Android)</title>
+        <description>
+          What's New: Performance improvements for faster app loading • Fixed booking confirmation delay issue • Enhanced notifications for real-time updates • General bug fixes and stability improvements.
+        </description>
+        <pubDate>Mon, 12 Aug 2025 10:00:00 +0000</pubDate>
+        <enclosure url="https://play.google.com/store/apps/details?id=com.civilbook.civilbookuser"
+                   sparkle:version="7.1.0"
+                   sparkle:shortVersionString="7.1.0"
+                   sparkle:os="android" />
+        <sparkle:minimumSystemVersion>5.0</sparkle:minimumSystemVersion>
+        <sparkle:releaseNotesLink>https://civilbook.in/release-notes/android-7-1-0</sparkle:releaseNotesLink>
+    </item>
+    <!-- iOS version -->
+    <item>
+        <title>CivilBook v1.0.0 (iOS)</title>
+        <description>
+          What's New: First official iOS release • Booking system with real-time availability • In-app chat with service providers • Secure payments &amp; wallet integration.
+        </description>
+        <pubDate>Mon, 12 Aug 2025 10:00:00 +0000</pubDate>
+        <enclosure url="https://apps.apple.com/app/civilbook/id1234567890"
+                   sparkle:version="1.0.0"
+                   sparkle:shortVersionString="1.0.0"
+                   sparkle:os="iOS" />
+        <sparkle:minimumSystemVersion>15.0.0</sparkle:minimumSystemVersion>
+        <sparkle:releaseNotesLink>https://civilbook.in/release-notes/ios-1-0-0</sparkle:releaseNotesLink>
+    </item>
+  </channel>
+</rss>
